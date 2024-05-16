@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "er.transformer.huawei.replicador": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7193",
+      "launchBrowser": false
+    }
+  }
+}
