@@ -16,7 +16,7 @@ public class Replicador
     }
 
     [Function("Replicador")]
-    public async Task RunAsync([TimerTrigger("0 */2 * * * *")] TimerInfo myTimer)
+    public async Task RunAsync([TimerTrigger("0 */10 * * * *")] TimerInfo myTimer)
     {
         _logger.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
 
